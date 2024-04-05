@@ -132,7 +132,7 @@ corpus_christi =   {
 },{
     "name": "Del Mar College",
     "location": "Corpus Christi, TX",
-    "SAT_range": 0,  
+    "SAT_range": 1010,
     "average_GPA": 2.0,  
 }
 

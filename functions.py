@@ -83,7 +83,9 @@ def college(gpa, sat):
       if x['average_GPA'] < gpa or x['average_GPA'] == 0:
         name = x['name']
         location = x['location']
-        print(f'{name} , {location}' , end=' \n')
+        score = x['SAT_range']
+        point = x['average_GPA']
+        print(f'\n{name} , {location}\nAdmissions: GPA {point} SAT: {score}' , end=' \n')
         
       elif x['average_GPA'] < gpa:
         pass
@@ -95,7 +97,9 @@ def college(gpa, sat):
       if x['SAT_range'] < sat or x['SAT_range'] == 0:
         name = x['name']
         location = x['location']
-        print(f'{name} , {location}' , end=' \n')
+        score = x['SAT_range']
+        point = x['average_GPA']
+        print(f'\n{name} , {location}\nAdmissions: GPA {point} SAT: {score}' , end=' \n')
 
       elif x['SAT_range'] < sat:
         pass
