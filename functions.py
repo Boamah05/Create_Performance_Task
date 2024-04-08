@@ -8,10 +8,11 @@ def main():
 def ask():
   global area
   gpa = float(input('\nEnter your Final highschool GPA (Weigthed): '))
+  print('These are the locations to choose from: \n')
   for i in l.locations:
     print(i, end=' \n')
   area = str(input('\nEnter your desired location of study '))
-  q = str(input('\nDo you have you taken the SAT yet? (y/n): '))
+  q = str(input('\nHave you taken the SAT yet? (y/n): '))
   if q == 'y':
     sat = int(input('\nEnter your SAT score: '))
   else:
@@ -85,7 +86,7 @@ def college(gpa, sat):
         location = x['location']
         score = x['SAT_range']
         point = x['average_GPA']
-        print(f'\n{name} , {location}\nAdmissions: GPA {point} SAT: {score}' , end=' \n')
+        print(f'\n{name} , {location}\nAdmissions \nGPA: {point} \nSAT: {score}' , end=' \n')
         
       elif x['average_GPA'] < gpa:
         pass
@@ -99,7 +100,7 @@ def college(gpa, sat):
         location = x['location']
         score = x['SAT_range']
         point = x['average_GPA']
-        print(f'\n{name} , {location}\nAdmissions: GPA {point} SAT: {score}' , end=' \n')
+        print(f'\n{name} , {location}\nAdmissions \nGPA: {point} \nSAT: {score}' , end=' \n')
 
       elif x['SAT_range'] < sat:
         pass

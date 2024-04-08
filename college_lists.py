@@ -183,3 +183,4 @@ others = {
     'average_GPA': 3.6,
     'SAT_range': 1160
 }
+
