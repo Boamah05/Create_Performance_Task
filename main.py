@@ -1,5 +1,5 @@
 import functions as f
-import college_lists as l
+
 
 
 game = True
