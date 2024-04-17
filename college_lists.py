@@ -152,35 +152,3 @@ waco_kileen = {
     "average_GPA": 3.74,
 }
 
-others = {
-    'name': "Texas Tech University",
-    'location': "Lubbock, TX",
-    'average_GPA': 3.5,
-    'SAT_range': 1150
-}, {
-    'name': "University of Texas at Arlington",
-    'location': "Arlington, TX",
-    'average_GPA': 3.4,
-    'SAT_range': 1100
-}, {
-    'name': "Texas State University",
-    'location': "San Marcos, TX",
-    'average_GPA': 3.3,
-    'SAT_range': 1050
-}, {
-    'name': "University of Texas at El Paso",
-    'location': "El Paso, TX",
-    'average_GPA': 3.2,
-    'SAT_range': 1000
-}, {
-    'name': "Angelo State University",
-    'location': "San Angelo, TX",
-    'average_GPA': 3.1,
-    'SAT_range': 950
-}, {
-    'name': "Abilene Christian University",
-    'location': "Abilene, TX",
-    'average_GPA': 3.6,
-    'SAT_range': 1160
-}
-
