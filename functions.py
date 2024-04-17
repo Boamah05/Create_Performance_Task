@@ -3,7 +3,7 @@ import college_lists as l
 
 
 def main():
-  print('Welcome to the OMEGA Future, a program that will help you plan your future. This program will aid you in deciding which college you should attend based on your high school merits. This program is only for students who reside in Texas.\n')
+  print('Welcome to the OMEGA Future, a program that will help you plan your future. \nThis program will aid you in deciding which college you should attend based on your high school merits. This program is only for students who reside in Texas.\n')
 
 def ask():
   global area

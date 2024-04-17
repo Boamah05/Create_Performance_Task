@@ -151,4 +151,3 @@ waco_kileen = {
     "SAT_range": 1267,
     "average_GPA": 3.74,
 }
-
