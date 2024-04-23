@@ -1,7 +1,10 @@
+#Location names for fetch_college function
 locations = [
     'Austin', 'Houston', 'Dallas', 'Fort Worth', 'Destin', 'San Antonio',
     'Waco', 'Kileen', 'Corpus Christi'
 ]
+
+#Dictionary for Austin
 
 austin = {
     "name": "University of Texas at Austin",
@@ -14,6 +17,8 @@ austin = {
     "SAT_range": 1080,
     "average_GPA": 2.0,
 }
+
+#Dictionary for Houston
 
 houston = {
     "name": "University of Houston",
@@ -62,6 +67,8 @@ houston = {
     "average_GPA": 3.96,
 }
 
+#Dictionary for Dallas and Fort Worth
+
 dallas_fort = {
     'name': "Dallas Baptist University",
     'location': "Dallas, TX",
@@ -89,6 +96,8 @@ dallas_fort = {
     'SAT_range': 1350
 }
 
+#Dictionary for Destin
+
 destin = {
     "name": "University of North Texas",
     "location": "Destin, TX",
@@ -100,6 +109,8 @@ destin = {
     "SAT_range": 1080,
     "average_GPA": 3.24,
 }
+
+#Dictionary for San Antonio
 
 san_antonio = {
     "name": "University of Texas at San Antonio",
@@ -123,6 +134,8 @@ san_antonio = {
     "average_GPA": 2.9,
 }
 
+#Dictionary for Corpus Christi
+
 corpus_christi = {
     "name": "Texas A&M University–Corpus Christi",
     "location": "Corpus Christi, TX",
@@ -134,6 +147,8 @@ corpus_christi = {
     "SAT_range": 1010,
     "average_GPA": 2.0,
 }
+
+#Dictionary for Waco and Kileen
 
 waco_kileen = {
     "name": "Central Texas College",
